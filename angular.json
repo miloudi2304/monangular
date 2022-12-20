@@ -25,14 +25,11 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f4d96761-34cf-4c35-a333-b7cda986777f"
   }
 }
